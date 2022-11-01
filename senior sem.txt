@@ -1,0 +1,92 @@
+BT building virtual tour
+
+Main ideas
+
+I. view controller
+ A. interface
+ B. API?
+ C. checks
+  1. if
+  2. case
+ D. Website vs. App
+II. pictures
+ A. iphone
+III. extra ideas
+ A. work on floors
+ B. videos 
+IV. build the map
+ A. directions to move
+ B. stairs
+ C. staircase
+ D. ledge
+
+build options to move position based off object properties
+ 
+
+NOTES for final paper:
+Buckets. putting things into buckets. school and classes. programming languages
+abstraction. ID and class seperation 
+
+
+extras:
+building history
+overall map and pictures
+tour
+student tips and things to expect to find in the building
+
+hover highlight text
+
+needs to be flexible to fit on mobile and desktop
+
+Right now it generates buttons for each image. 
+
+potential options:
+Generate buttons once and make function that disables/enables buttons on clicks
+Delete buttons and regenerate -> change static buttons to enable/disabled
+
+naming scheme for images
+
+room-position-direction-floor
+tabler-icons.io 
+
+up arrow <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <line x1="12" y1="5" x2="12" y2="19"></line>
+   <line x1="18" y1="11" x2="12" y2="5"></line>
+   <line x1="6" y1="11" x2="12" y2="5"></line>
+</svg>
+
+
+all images in the same array. 
+backward just turns you around. need two images from each position. this is going to make it more time consuming, but a better product.
+scalable vectar graphics 
+
+lobby-pos-1-flr-1st-blding-S
+
+lobby-1-1st-s-f 
+
+changing scope
+skipping inside of rooms and just doing hallways to navigate to room numbers
+
+zoom into image to load next 
+
+flex for one dimension
+grid for multiple
+
+viewport 
+
+block level elements
+
+understanding parent and child elements
+what did I have to adjust to be able to set buttons static, but also change their position
+body-buttons-buttonID
+
+css filters
+
+mouse hovering over disabled button highlights wwhen disbale and using key
+
+git.
+   signing in
+   committing
+   creating a rerpository 
+   hosting 

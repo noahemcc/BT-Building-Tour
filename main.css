@@ -1,0 +1,80 @@
+body{
+
+text-align: center;
+  background-color: #131312;
+
+}
+
+.contents{
+  border: solid 3px rgb(118, 212, 41);
+  border: #0693e3;
+}
+
+img{
+  border: solid 3px #0693e3;
+  height: 504px;
+  width: 378px;
+  /* center image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  text-align: center;
+  border: transparent;
+  background-color: transparent;
+  color: #085514;
+  padding: 5px 10px;
+  width: 80px;
+  height: 100px;
+}
+
+button:hover {
+  /* border: 1px solid #0099cc; */
+  background-color:transparent;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+button:disabled,
+button[disabled]{
+  background-color: transparent;
+  /* border: 1px solid #999999; */
+  /* background-color: #cccccc; */
+  color: #be2121;
+}
+
+/* button id styling to position buttons over images */
+#forward{
+position: relative;
+top: -100px;
+left: 39px;
+}
+
+#backward{
+position: relative;
+left: -45px;
+}
+
+#right{
+  position: relative;
+  left: -20px
+}
+
+#left{
+  position: relative;
+  left: 20px;
+}
+
+.buttons{
+position: relative;
+top: -100px;
+left: -20px;
+
+}
+
+/* adding shadows to buttons svg */
+svg {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 1));
+}
