@@ -91,3 +91,5 @@ git.
    creating a rerpository 
    hosting 
    fresh commit 
+
+when I click a button on mobile. it stays selected 
