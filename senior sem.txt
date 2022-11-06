@@ -93,3 +93,7 @@ git.
    fresh commit 
 
 when I click a button on mobile. it stays selected 
+
+BUG: IMAGE PASSED SAYING UNDEFINED
+
+concession: hosting: i used js and avoided using a db since I wanted to host on github for free
