@@ -97,3 +97,8 @@ when I click a button on mobile. it stays selected
 BUG: IMAGE PASSED SAYING UNDEFINED
 
 concession: hosting: i used js and avoided using a db since I wanted to host on github for free
+
+automation. take 4 picture for each spot. forward - backward -left - Right
+
+need to convert to JPEG for lower file size
+why are photos downloaded from icloud 2mb less than on iphonse transfer

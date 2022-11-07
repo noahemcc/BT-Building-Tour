@@ -15,6 +15,8 @@ let images = [
       right:null,
    
   },
+
+
   {
       image:"images/lobby-1-B-1st.JPG",
       forward: null,
@@ -35,7 +37,7 @@ let images = [
   //POSITION TWO POSITION TWO POSITION TWO POSITION TWO POSITION TWO POSITION TWO
   {
       image:"images/lobby-2-F-1st.JPG", 
-      forward:null, 
+      forward:"first/cr-1-f.JPG", 
       backward:"images/lobby-2-B-1st.JPG", 
       left:null, 
       right:null,
@@ -138,14 +140,14 @@ let images = [
   image:"images/100S-13-B.JPG", 
   forward:null, 
   backward:"images/100S-13-F.JPG", 
-  left:"images/200S-12-F.JPG", 
+  left:"images/200S-12-R.JPG", 
   right:null
   },
   {
   image:"images/100S-13-F.JPG", 
   forward:"images/100S-14-F.JPG", 
   backward:"images/100S-13-B.JPG", 
-  left:"images/200S-12-F.JPG", 
+  left:null, 
   right:null
   },
   {
@@ -235,13 +237,6 @@ let images = [
  right:null
 },
 
-{
-  image:"images/100S-13-B.JPG", 
-  forward:null, 
-  backward:"images/100S-13-F.JPG", 
-  left:null, 
-  right:null
-  },
   {
   image:"images/100S-13-F.JPG", 
   forward:"images/100S-14-F.JPG", 
@@ -436,7 +431,7 @@ let images = [
 },
 {
   image:"images/200S-4-B.JPG",
-  forward:"images/200S-1-F.JPG", 
+  forward:"images/200S-2-B.JPG", 
   backward:null, 
   left:"images/200S-4-R.JPG", 
   right:"images/200S-4-L.JPG",
@@ -477,7 +472,7 @@ let images = [
 {
   image:"images/200S-7-B.JPG",
   forward:"images/200S-4-B.JPG", 
-  backward:null, 
+  backward:"images/200S-4-F.JPG", 
   left:null, 
   right:"images/200S-7-L.JPG",
   turnAround:null
@@ -515,7 +510,7 @@ let images = [
 },
 {
   image:"images/200S-8-B.JPG",
-  forward:"images/200S-7-F.JPG", 
+  forward:"images/200S-7-B.JPG", 
   backward:"images/200S-8-F.JPG", 
   left:"images/200S-8-R.JPG", 
   right:"images/200S-8-L.JPG",
@@ -610,7 +605,7 @@ let images = [
   forward:"images/100S-13-F.JPG", 
   backward:"images/200S-12-F.JPG", 
   left:"images/200S-12-B.JPG", 
-  right:"images/200S-12-R.JPG",
+  right:null,
 },
 {
   image:"images/200S-12-F.JPG",
@@ -620,12 +615,274 @@ let images = [
   right:null,
 },
 
+//couch room 
+//first floor
+{
+  image:"first/cr-1-f.JPG", 
+  forward:"first/cr-3-f.JPG", 
+  backward:"first/cr-1-b.JPG", 
+  left:null, 
+  right:"first/cr-2-f.JPG",
+
+},
+{
+  image:"first/cr-1-b.JPG", 
+  forward:"images/lobby-2-B-1st.JPG", 
+  backward:"first/cr-1-f.JPG", 
+  left:null, 
+  right:null,
+
+},
+{
+  image:"first/cr-2-f.JPG", 
+  forward:null, 
+  backward:"first/cr-2-b.JPG", 
+  left:null, 
+  right:null,
+
+},
+{
+  image:"first/cr-2-b.JPG", 
+  forward:null, 
+  backward:"first/cr-2-f.JPG", 
+  left:"first/cr-1-b.JPG", 
+  right:"first/cr-3-f.JPG",
+
+},
+{
+  image:"first/cr-3-f.JPG", 
+  forward:"first/entrance-1-f.JPG", 
+  backward:"first/cr-3-b.JPG", 
+  left:null, 
+  right:null,
+
+},
+{
+  image:"first/cr-3-b.JPG", 
+  forward:"first/cr-1-b.JPG", 
+  backward:"first/cr-3-f.JPG", 
+  left:"first/cr-2-f.JPG", 
+  right:null,
+
+},
+{
+  image:"first/entrance-1-f.JPG", 
+  forward:null, 
+  backward:"first/entrance-1-b.JPG", 
+  left:"first/entrance-2-f.JPG", 
+  right:"first/entrance-3-f.JPG",
+
+},
+{
+  image:"first/entrance-1-b.JPG", 
+  forward:"first/cr-3-b.JPG", 
+  backward:"first/entrance-1-f.JPG", 
+  left:"first/entrance-3-f.JPG", 
+  right:"first/entrance-2-f.JPG",
+
+},
+{
+  image:"first/entrance-2-f.JPG", 
+  forward:null, 
+  backward:"first/entrance-2-b.JPG", 
+  left:null, 
+  right:"first/entrance-info.JPG",
+
+},
+{
+  image:"first/entrance-2-b.JPG", 
+  forward:"first/entrance-3-f.JPG", 
+  backward:"first/entrance-2-f.JPG", 
+  left:null, 
+  right:"first/entrance-1-b.JPG",
+
+},
+{
+  image:"first/entrance-info.JPG", 
+  forward:null, 
+  backward:"first/entrance-2-b.JPG", 
+  left:"first/entrance-2-f.JPG", 
+  right:null,
+
+},
+{
+  image:"first/entrance-3-f.JPG", 
+  forward:"first/1-n-1-f.JPG", 
+  backward:"first/entrance-3-b.JPG", 
+  left:null, 
+  right:null,
+
+},
+{
+  image:"first/entrance-3-b.JPG", 
+  forward:"first/entrance-2-f.JPG", 
+  backward:"first/entrance-3-f.JPG", 
+  left:"first/entrance-1-b.JPG", 
+  right:null,
+
+},
+{
+  image:"first/1-n-1-f.JPG", 
+  forward:"first/1-n-2-f.JPG", 
+  backward:"first/1-n-1-b.JPG", 
+  left:null, 
+  right:null,
+
+},
+{
+  image:"first/1-n-1-b.JPG", 
+  forward:"first/entrance-3-b.JPG", 
+  backward:"first/1-n-1-f.JPG", 
+  left:null, 
+  right:null,
+
+},
+{
+  image:"first/1-n-2-f.JPG", 
+  forward:"first/1-n-3-f.JPG", 
+  backward:"first/1-n-2-b.JPG", 
+  left:"first/1-n-2-l.JPG", 
+  right:null,
+
+},
+{
+  image:"first/1-n-2-b.JPG", 
+  forward:"first/1-n-1-b.JPG", 
+  backward:"first/1-n-2-f.JPG", 
+  left:null, 
+  right:"first/1-n-2-l.JPG",
+
+},
+{
+  image:"first/1-n-2-l.JPG", 
+  forward:null, 
+  backward:null, 
+  left:"first/1-n-2-b.JPG", 
+  right:"first/1-n-2-f.JPG",
+
+},
+{
+  image:"first/1-n-3-f.JPG", 
+  forward:"first/1-n-4-f.JPG", 
+  backward:"first/1-n-3-b.JPG", 
+  left:"first/1-n-3-l.JPG", 
+  right:"first/1-n-3-r.JPG",
+
+},
+{
+  image:"first/1-n-3-b.JPG", 
+  forward:"first/1-n-2-b.JPG", 
+  backward:"first/1-n-3-f.JPG", 
+  left:"first/1-n-3-r.JPG", 
+  right:"first/1-n-3-l.JPG",
+
+},
+{
+  image:"first/1-n-3-r.JPG", 
+  forward:null, 
+  backward:null, 
+  left:"first/1-n-3-f.JPG", 
+  right:"first/1-n-3-b.JPG",
+
+},
+{
+  image:"first/1-n-3-l.JPG", 
+  forward:null, 
+  backward:null, 
+  left:"first/1-n-3-b.JPG", 
+  right:"first/1-n-3-f.JPG",
+
+},
+
+//starting to download photos from icloud instead of transferring from iphone
+//icloud downloads as jpeg
+//makes the images 1mb instead of 3. might be enought to host all pictures on github. 
+{
+  image:"first/1-n-4-f.JPG", 
+  forward:"first/1-n-5-f.JPG", 
+  backward:"first/1-n-4-b.JPG", 
+  left:"first/1-n-4-l.jpeg", 
+  right:"first/1-n-4-r.JPG",
+
+},
+{
+  image:"first/1-n-4-b.JPG", 
+  forward:"first/1-n-3-b.JPG", 
+  backward:"first/1-n-4-f.JPG", 
+  left:"first/1-n-4-r.JPG", 
+  right:null,
+
+},
+{
+  image:"first/1-n-4-r.JPG", 
+  forward:null, 
+  backward:null, 
+  left:"first/1-n-4-f.JPG", 
+  right:"first/1-n-4-b.JPG",
+},
+{
+  image:"first/1-n-4-l.jpeg", 
+  forward:null, 
+  backward:null, 
+  left:"first/1-n-4-b.JPG", 
+  right:"first/1-n-4-f.JPG",
+},
+{
+  image:"first/1-n-5-f.JPG", 
+  forward:"first/1-n-6-f.JPG", 
+  backward:"first/1-n-5-b.JPG", 
+  left:"first/1-n-5-l.JPG", 
+  right:null,
+},
+{
+  image:"first/1-n-5-b.JPG", 
+  forward:"first/1-n-4-b.JPG", 
+  backward:"first/1-n-5-f.JPG", 
+  left:null, 
+  right:"first/1-n-5-l.JPG",
+},
+{
+  image:"first/1-n-5-l.JPG", 
+  forward:null, 
+  backward:null, 
+  left:"first/1-n-5-b.JPG", 
+  right:"first/1-n-5-f.JPG",
+},
+{
+  image:"first/1-n-6-b.jpeg", 
+  forward:"first/1-n-5-b.JPG", 
+  backward:"first/1-n-6-f.JPG", 
+  left:"first/1-n-5-l.JPG", 
+  right:"first/1-n-6-l.JPG",
+},
+{
+  image:"first/1-n-6-f.JPG", 
+  forward:null, 
+  backward:"first/1-n-6-b.jpeg", 
+  left:"first/1-n-6-l.JPG", 
+  right:"first/1-n-6-r.JPG",
+},
+{
+  image:"first/1-n-6-r.JPG", 
+  forward:null, 
+  backward:"first/1-n-6-l.JPG", 
+  left:"first/1-n-6-f.JPG", 
+  right:"first/1-n-6-b.jpeg",
+},
+{
+  image:"first/1-n-6-l.JPG", 
+  forward:null, 
+  backward:"first/1-n-6-r.JPG", 
+  left:"first/1-n-6-b.jpeg", 
+  right:"first/1-n-6-f.JPG",
+},
+
 
 ]
 
 
 
-var index = 71;
+var index = 80;
 
 //initialize image
 function loadImage(){
