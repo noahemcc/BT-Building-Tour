@@ -102,3 +102,24 @@ automation. take 4 picture for each spot. forward - backward -left - Right
 
 need to convert to JPEG for lower file size
 why are photos downloaded from icloud 2mb less than on iphonse transfer
+
+if I were to automate i would take pictures in order going a single direction.
+then I could do a loop to make every direction get named in that order
+
+pictures to get: south staircaise up 
+
+
+
+PICTURES TO GET:
+3rd-9-b 
+chelsea office 3rd floor
+18-b end of hall facing toward hall 
+2nd-3-b 
+
+main types of structure
+
+F-B-l 
+F-B-R 
+F-B-L-R 
+F-B 
+L-R 

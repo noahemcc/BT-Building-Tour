@@ -1,17 +1,30 @@
 body{
-
+margin: 0;
 text-align: center;
-  background-color: #131312;
+  background-color: rgb(217, 208, 26);
 
 }
 
-.contents{
-  border: solid 3px rgb(118, 212, 41);
-  border: #0693e3;
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
+.footer{
+position: fixed;
+
+bottom: 0;
+width: 100%;
+background-color: red;
+color: white;
+
+}
+
 
 img{
-  border: solid 3px #0693e3;
+  /* border: solid 3px #0693e3; */
   height: 504px;
   width: 378px;
   /* center image */
