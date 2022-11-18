@@ -2080,7 +2080,7 @@ let images = [
 },
 {
   image:"second/2nd-12-f.JPEG", 
-  forward:null, 
+  forward:"stairs/stairs-15-r.JPEG", 
   backward:"second/2nd-12-b.JPEG", 
   left:"second/2nd-12-l.JPEG", 
   right:"second/2nd-12-r.JPEG",
@@ -2103,7 +2103,7 @@ let images = [
   image:"second/2nd-12-b.JPEG", 
   forward:"second/2nd-11-b.JPEG", 
   backward:"second/2nd-12-f.JPEG", 
-  left:null, 
+  left:"second/2nd-12-r.JPEG", 
   right:"second/2nd-12-l.JPEG",
 },
 {
@@ -2393,7 +2393,7 @@ let images = [
 },
 {
   image:"stairs/stairs-15-f.JPEG", 
-  forward:null, 
+  forward:"second/2nd-12-b.JPEG", 
   backward:null, 
   left:"stairs/stairs-15-r.JPEG", 
   right:"stairs/stairs-15-l.JPEG",
@@ -2460,7 +2460,7 @@ let images = [
 
 //108
 //180
-var index = 236;
+var index = 280;
 
 //initialize image
 function loadImage(){
