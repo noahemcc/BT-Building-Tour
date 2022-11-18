@@ -123,3 +123,5 @@ F-B-R
 F-B-L-R 
 F-B 
 L-R 
+
+case sensitive image files
