@@ -1,3 +1,11 @@
+/* add code for mobile optimization
+  make image size of screen for phones
+  lock arrows?
+  turn off hove on mobile?
+*/
+
+
+
 body{
  /* background-image: url("images/DCS_2701-1024x685.jpg");
 background-repeat: no-repeat;
@@ -13,8 +21,8 @@ min-width: 378px;
 
 #content img{
   /* border: solid 3px #0693e3; */
-  height: 504px;
-  width: 378px;
+  max-height: 504px;
+  max-width: 378px;
 
   /* height: 504px;
   width: 378px; */
@@ -35,6 +43,7 @@ min-width: 378px;
 } */
 
 .header{
+  margin-top: 40px;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -50,12 +59,11 @@ button {
   height: 100px;
 }
 
-button:hover {
-  /* border: 1px solid #0099cc; */
+/* button:hover {
   background-color:transparent;
   color: #ffffff;
   padding: 5px 10px;
-}
+} */
 
 button:disabled,
 button[disabled]{
@@ -69,17 +77,17 @@ button[disabled]{
 #forward{
 position: relative;
 top: -100px;
-left: 38px;
+left: 41px;
 }
 
 #backward{
 position: relative;
-left: -45px;
+left: -42px;
 }
 
 #right{
   position: relative;
-  left: -20px
+  left: -16px
 }
 
 #left{

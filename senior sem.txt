@@ -130,3 +130,7 @@ second/2nd-12-f.JPEG
 stairs/stairs-15-f.JPEG - 12-b
 
 stairs/stairs-15-r.JPEG 323
+
+onclick click off invisible button?
+
+set media quieries for mobile view

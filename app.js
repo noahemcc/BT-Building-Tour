@@ -90,7 +90,7 @@ let images = [
     forward:"images/100S-20-F.JPG", 
     backward:"images/lobby-33-F.JPG", 
     left:null, 
-    right:null,
+    right:"images/lobby-3-B-1st.JPG",
     turnAround:null
   }, 
   {
@@ -595,7 +595,7 @@ let images = [
 
 {
   image:"images/200S-12-B.JPG",
-  forward:null, 
+  forward:"images/200S-11-B.JPG", 
   backward:"images/200S-12-F.JPG", 
   left:null, 
   right:"images/200S-12-R.JPG",
@@ -2460,7 +2460,7 @@ let images = [
 
 //108
 //180
-var index = 280;
+var index = 0;
 
 //initialize image
 function loadImage(){
@@ -2562,9 +2562,10 @@ function buttonID(direction){
 // }
 
 document.onkeydown = function(e) {
-  
+ //maybe add to if statements?
+  e.preventDefault(); 
 if(e.key=='ArrowUp'){
-  e.preventDefault();
+  
   document.getElementById('forward').click();
 }
 else if(e.key=='ArrowDown'){
