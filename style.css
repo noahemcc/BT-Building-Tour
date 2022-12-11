@@ -5,13 +5,15 @@
 */
 
 
-
+/* margin and padding to zero to remove hanging left side pixels */
 body{
  /* background-image: url("images/DCS_2701-1024x685.jpg");
 background-repeat: no-repeat;
 background-position: center; */
   text-align: center;
   background-color: #efd044;
+  margin: 0;
+  padding: 0;
 }
 #content{
 text-align: center;
@@ -43,12 +45,14 @@ min-width: 378px;
 } */
 
 .header{
-  margin-top: 40px;
+ 
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
 button {
+  margin: 0;
+  padding: 0;
   text-align: center;
   border: transparent;
   background-color: transparent;
@@ -77,22 +81,22 @@ button[disabled]{
 #forward{
 position: relative;
 top: -100px;
-left: 41px;
+left: 50px;
 }
 
 #backward{
 position: relative;
-left: -42px;
+left: -33px;
 }
 
 #right{
   position: relative;
-  left: -16px
+  left: -12px
 }
 
 #left{
   position: relative;
-  left: 20px;
+  left: 29px;
 }
 
 .buttons{

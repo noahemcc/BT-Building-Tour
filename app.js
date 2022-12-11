@@ -140,7 +140,7 @@ let images = [
   image:"images/100S-13-B.JPG", 
   forward:null, 
   backward:"images/100S-13-F.JPG", 
-  left:"images/200S-12-R.JPG", 
+  left:"images/200S-12-F.JPG", 
   right:null
   },
   {
@@ -2529,37 +2529,6 @@ function buttonID(direction){
 }
 
 
-//
-
-
-
-//key listener for arrow key use 
-// function setMyKeyDownListener() {
-//   window.addEventListener(
-//     "keydown",
-//     function(event) {MyFunction(event.key)}
-//   )
-// }
-
-// function MyFunction (the_Key) {
-//     if (the_Key = 'ArrowUp'){
-//       document.getElementById("forward").click()
-//       alert("up")
-//     }
-//     if (the_Key = 'ArrowLeft'){
-//       document.getElementById("left").click()
-//       alert("up")
-//     }
-//     if (the_Key = 'ArrowRight'){
-//       document.getElementById("right").click()
-//       alert("up")
-//     }
-//     if (the_Key = 'ArrowDown'){
-//       document.getElementById("backward").click()
-//       alert("up")
-//     }
-//    return
-// }
 
 document.onkeydown = function(e) {
  //maybe add to if statements?
