@@ -18,7 +18,7 @@ let images = [
       backward:"images/lobby-1-F-1st.JPG",
       left:null, 
       right:"images/lobby-1-L-1st.JPG",
-      turnAround:null
+       Around:null
   },
   {
       image:"images/lobby-1-L-1st.JPG",
@@ -26,7 +26,7 @@ let images = [
       backward:"images/lobby-1-F-1st.JPG", 
       left:null, 
       right:null,
-      turnAround:null
+  
   },   
   //LOBBY
   //POSITION TWO POSITION TWO POSITION TWO POSITION TWO POSITION TWO POSITION TWO
@@ -36,7 +36,7 @@ let images = [
       backward:"images/lobby-2-B-1st.JPG", 
       left:null, 
       right:null,
-      turnAround:null
+  
   },     
   {
     image:"images/lobby-2-B-1st.JPG", 
@@ -44,7 +44,7 @@ let images = [
     backward:"images/lobby-2-F-1st.JPG", 
     left:"images/lobby-2-L-1st.JPG", 
     right:"images/lobby-1-B-1st.JPG",
-    turnAround:null
+      
   },     
   {
     image:"images/lobby-2-L-1st.JPG", 
@@ -52,7 +52,7 @@ let images = [
     backward:"images/lobby-2-B-1st.JPG", 
     left:null, 
     right:null,
-    turnAround:null
+      
   },     
   //LOBBY
   //POSITION THREE
@@ -62,7 +62,7 @@ let images = [
     backward:"images/lobby-3-B-1st.JPG", 
     left:"images/lobby-3-L-1st.JPG", 
     right:"images/lobby-3-R-1st.JPG",
-    turnAround:null
+      
   },   
   {
     image:"images/lobby-3-B-1st.JPG",
@@ -70,7 +70,7 @@ let images = [
     backward:"images/lobby-3-F-1st.JPG", 
     left:null, 
     right:"images/lobby-2-F-1st.JPG",
-    turnAround:null
+      
   },   
   {
     image:"images/lobby-3-L-1st.JPG",
@@ -78,7 +78,7 @@ let images = [
     backward:"images/lobby-3-F-1st.JPG", 
     left:"images/lobby-3-B-1st.JPG", 
     right:null,
-    turnAround:null
+      
   },   
   {
     image:"images/lobby-3-R-1st.JPG",
@@ -86,7 +86,7 @@ let images = [
     backward:"images/lobby-33-F.JPG", 
     left:null, 
     right:"images/lobby-3-B-1st.JPG",
-    turnAround:null
+      
   }, 
   {
     image:"images/lobby-33-F.JPG", 
@@ -103,7 +103,7 @@ let images = [
   backward:null, 
   left:null, 
   right:"images/lobby-S-R.JPG",
-  turnAround:null
+    
 },   
 {
   image:"images/lobby-S-R.JPG",
@@ -111,7 +111,7 @@ let images = [
   backward:null, 
   left:"images/lobby-4-F-1st.JPG", 
   right:null,
-  turnAround:null
+    
 },  
 //LOBBY
 //POSITION FIVE
@@ -121,7 +121,7 @@ let images = [
   backward:"images/lobby-5-B-2nd.JPG", 
   left:null, 
   right:null,
-  turnAround:null
+    
 },   
 {
   image:"images/lobby-5-B-2nd.JPG",
@@ -129,7 +129,7 @@ let images = [
   backward:"images/lobby-5-F-2nd.JPG", 
   left:null, 
   right:null,
-  turnAround:null
+    
 }, 
  {
   image:"images/100S-13-B.JPG", 
@@ -331,7 +331,7 @@ let images = [
   backward:"images/lobby-33-F.JPG", 
   left:null, 
   right:null,
-  turnAround:null
+    
 }, 
 
 //SECOND FLOOR
@@ -341,7 +341,7 @@ let images = [
   backward:"images/200S-1-B.JPG", 
   left:"images/200S-1-L.JPG", 
   right:"images/200S-1-R.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-1-B.JPG",
@@ -349,7 +349,7 @@ let images = [
   backward:"images/200S-1-F.JPG", 
   left:"images/200S-1-R.JPG", 
   right:"images/200S-1-L.JPG",
-  turnAround:null
+    
 },
 
 {
@@ -358,7 +358,7 @@ let images = [
   backward:null, 
   left:"images/200S-1-B.JPG", 
   right:"images/200S-1-F.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-1-R.JPG",
@@ -366,7 +366,7 @@ let images = [
   backward:null, 
   left:"images/200S-1-F.JPG", 
   right:"images/200S-1-B.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-2-F.JPG",
@@ -374,7 +374,7 @@ let images = [
   backward:"images/200S-2-B.JPG", 
   left:"images/200S-2-L.JPG", 
   right:null,
-  turnAround:null
+    
 },
 {
   image:"images/200S-2-B.JPG",
@@ -382,7 +382,7 @@ let images = [
   backward:"images/200S-2-F.JPG", 
   left:"images/200S-1-R.JPG", 
   right:"images/200S-2-L.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-2-L.JPG",
@@ -390,7 +390,7 @@ let images = [
   backward:null, 
   left:"images/200S-2-B.JPG", 
   right:"images/200S-2-F.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-3-F.JPG",
@@ -398,7 +398,7 @@ let images = [
   backward:"images/200S-3-B.JPG", 
   left:"images/200S-3-L.JPG", 
   right:null,
-  turnAround:null
+    
 },
 {
   image:"images/200S-3-L.JPG",
@@ -406,7 +406,7 @@ let images = [
   backward:null, 
   left:"images/200S-3-B.JPG", 
   right:"images/200S-3-F.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-3-B.JPG",
@@ -414,7 +414,7 @@ let images = [
   backward:"images/200S-3-F.JPG", 
   left:null, 
   right:"images/200S-3-L.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-4-F.JPG",
@@ -422,7 +422,7 @@ let images = [
   backward:"images/200S-4-B.JPG", 
   left:"images/200S-4-L.JPG", 
   right:"images/200S-4-R.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-4-B.JPG",
@@ -430,7 +430,7 @@ let images = [
   backward:null, 
   left:"images/200S-4-R.JPG", 
   right:"images/200S-4-L.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-4-L.JPG",
@@ -438,7 +438,7 @@ let images = [
   backward:null, 
   left:"images/200S-5-F.JPG", 
   right:"images/200S-4-F.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-4-R.JPG",
@@ -446,7 +446,7 @@ let images = [
   backward:null, 
   left:"images/200S-5-F.JPG", 
   right:"images/200S-4-B.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-5-F.JPG",
@@ -454,7 +454,7 @@ let images = [
   backward:"images/200S-4-B.JPG", 
   left:"images/200S-6-L.JPG", 
   right:"images/200S-4-R.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-6-L.JPG",
@@ -462,7 +462,7 @@ let images = [
   backward:null, 
   left:"images/200S-4-B.JPG", 
   right:"images/200S-5-F.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-7-B.JPG",
@@ -470,7 +470,7 @@ let images = [
   backward:"images/200S-4-F.JPG", 
   left:null, 
   right:"images/200S-7-L.JPG",
-  turnAround:null
+    
 },
 {
   image:"images/200S-7-F.JPG",
@@ -478,7 +478,7 @@ let images = [
   backward:"images/200S-7-B.JPG", 
   left:"images/200S-7-L.JPG", 
   right:null,
-  turnAround:null
+    
 },
 {
   image:"images/200S-7-L.JPG",
@@ -486,7 +486,7 @@ let images = [
   backward:"images/200S-7-B.JPG", 
   left:"images/200S-7-B.JPG", 
   right:"images/200S-7-F.JPG",
-  turnAround:null
+    
 },
 // {
 //   image:"images/200S-7-R.JPG",
@@ -494,7 +494,7 @@ let images = [
 //   backward:"images/200S-7-B.JPG", 
 //   left:"images/200S-7-F.JPG", 
 //   right:"images/200S-7-B.JPG",
-//   turnAround:null
+//     
 // },
 {
   image:"images/200S-8-F.JPG",
